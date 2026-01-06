@@ -14,5 +14,6 @@ class ProductPageLocators():
     COST_PRODUCT_WHEN_ADD_TO_BASKET = (By.CSS_SELECTOR, ".alertinner > p > strong")
     NAME_PRODUCT_IN_PAGE = (By.XPATH, "//div[@class='row']//h1")
     COST_PRODUCT_IN_PAGE = (By.XPATH, "//div[@class='row']//p[@class='price_color']")
+    SUCCESS_MESSAGE = (By.XPATH, "//div[@class='alert alert-safe alert-noicon alert-success  fade in'] [1]")
 
 
