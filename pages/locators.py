@@ -19,6 +19,12 @@ class ProductPageLocators():
 class BasePageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    SEE_BASKET_LINK = (By.XPATH, "//a[text()='Посмотреть корзину']")
+
+class BasketPageLocators():
+    BASKET_IS_EMPTY = (By.XPATH, "//div[@id='content_inner']//p")
+    BASKET_CONTAINS_PRODUCTS =(By.CSS_SELECTOR, "#basket_formset")
+
 
 
 
