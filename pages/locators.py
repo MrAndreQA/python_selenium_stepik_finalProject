@@ -16,4 +16,9 @@ class ProductPageLocators():
     COST_PRODUCT_IN_PAGE = (By.XPATH, "//div[@class='row']//p[@class='price_color']")
     SUCCESS_MESSAGE = (By.XPATH, "//div[@class='alert alert-safe alert-noicon alert-success  fade in'] [1]")
 
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+
+
 
